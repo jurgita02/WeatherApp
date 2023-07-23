@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+ 
+  }
+  
+  .weather-container {
+    background-color: bisque;
+    font-weight: bold;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+    box-shadow: 14px 13px 29px 29px #2A35B0 inset, 5px 5px 10px 1px #000;
+  }
+
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.hannover-entdecken.de/wp-content/uploads/2022/11/1920px-Michaeliskirche_Ronnenberg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8; 
+    z-index: -1; 
+  }
